@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Code\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="GildedRose.cpp">
+      <Filter>Code\GildedRose</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingredient.cpp">
+      <Filter>Code\PastaMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="PastaMaker.cpp">
+      <Filter>Code\PastaMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentRepository.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorials.cpp">
+      <Filter>Code\Factorials</Filter>
+    </ClCompile>
+    <ClCompile Include="University.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversityRepository.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentService.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Calculator.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="GildedRose.h">
+      <Filter>Code\GildedRose</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Code\GildedRose</Filter>
+    </ClInclude>
+    <ClInclude Include="Factorials.h">
+      <Filter>Code\Factorials</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingredient.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="IngredientType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="PastaMaker.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="PastaType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Place.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="SauceType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="NotImplementedException.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentRepository.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageType.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="University.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversityRepository.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentService.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{2ca8dc9d-f4d5-4baf-8734-2a29d6ad3020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{640b1a3e-d111-4ae8-8d72-4008da7904d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Calculator">
+      <UniqueIdentifier>{8cca9d3b-4ee7-443c-a6a5-d66431f937da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\GildedRose">
+      <UniqueIdentifier>{a6f2aa97-466a-419e-a487-fccd8ff51516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Factorials">
+      <UniqueIdentifier>{bf69924a-8602-4172-adac-cf8a305d9737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\PastaMaker">
+      <UniqueIdentifier>{dab92a4e-dfe1-41a6-a091-30d6782e303e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\SOLID">
+      <UniqueIdentifier>{234add01-f50a-4025-9342-850ee18c472d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
