@@ -1,6 +1,8 @@
 #include "pch.h"
+#include "Words.h"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+
+TEST(TestCaseName, Words) {
+	Words w;
+	w.Find();
 }

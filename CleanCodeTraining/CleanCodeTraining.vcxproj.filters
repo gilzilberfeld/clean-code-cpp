@@ -33,12 +33,15 @@
     <ClCompile Include="StudentService.cpp">
       <Filter>Code\SOLID</Filter>
     </ClCompile>
+    <ClCompile Include="Words.cpp">
+      <Filter>Code\Words</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialTests.cpp">
+      <Filter>Tests\Factorials</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Calculator.h">
-      <Filter>Code</Filter>
-    </ClInclude>
     <ClInclude Include="GildedRose.h">
       <Filter>Code\GildedRose</Filter>
     </ClInclude>
@@ -87,6 +90,12 @@
     <ClInclude Include="StudentService.h">
       <Filter>Code\SOLID</Filter>
     </ClInclude>
+    <ClInclude Include="Calculator.h">
+      <Filter>Code\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="Words.h">
+      <Filter>Code\Words</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Code">
@@ -109,6 +118,15 @@
     </Filter>
     <Filter Include="Code\SOLID">
       <UniqueIdentifier>{234add01-f50a-4025-9342-850ee18c472d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Words">
+      <UniqueIdentifier>{0e78d2dc-dc78-4d63-b813-f4140390b3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Factorials">
+      <UniqueIdentifier>{aa924a41-1ec0-424f-810c-430ad3e1a91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\NewFilter1">
+      <UniqueIdentifier>{a945518e-9a6b-419d-9391-9c529dd55432}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

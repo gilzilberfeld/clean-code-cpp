@@ -51,10 +51,12 @@
     <ClInclude Include="StudentService.h" />
     <ClInclude Include="University.h" />
     <ClInclude Include="UniversityRepository.h" />
+    <ClInclude Include="Words.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Factorials.cpp" />
+    <ClCompile Include="FactorialTests.cpp" />
     <ClCompile Include="GildedRose.cpp" />
     <ClCompile Include="Ingredient.cpp" />
     <ClCompile Include="PastaMaker.cpp" />
@@ -70,6 +72,7 @@
     </ClCompile>
     <ClCompile Include="University.cpp" />
     <ClCompile Include="UniversityRepository.cpp" />
+    <ClCompile Include="Words.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
