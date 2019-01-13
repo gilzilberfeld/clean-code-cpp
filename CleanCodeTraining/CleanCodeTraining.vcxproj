@@ -33,36 +33,39 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClInclude Include="Calculator.h" />
-    <ClInclude Include="Factorials.h" />
-    <ClInclude Include="GildedRose.h" />
-    <ClInclude Include="Ingredient.h" />
-    <ClInclude Include="IngredientType.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="NotImplementedException.h" />
-    <ClInclude Include="PackageType.h" />
-    <ClInclude Include="PastaMaker.h" />
-    <ClInclude Include="PastaType.h" />
+    <ClInclude Include="Code\Calculator\Calculator.h" />
+    <ClInclude Include="Code\Factorials\Factorials.h" />
+    <ClInclude Include="Code\GildedRose\GildedRose.h" />
+    <ClInclude Include="Code\PastaMaker\Ingredient.h" />
+    <ClInclude Include="Code\PastaMaker\IngredientType.h" />
+    <ClInclude Include="Code\GildedRose\Item.h" />
+    <ClInclude Include="Tests\StarWars\LightSaberTests.h" />
+    <ClInclude Include="Code\SOLID\NotImplementedException.h" />
+    <ClInclude Include="Code\SOLID\PackageType.h" />
+    <ClInclude Include="Code\PastaMaker\PastaMaker.h" />
+    <ClInclude Include="Code\PastaMaker\PastaType.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Place.h" />
-    <ClInclude Include="SauceType.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="StudentRepository.h" />
-    <ClInclude Include="StudentService.h" />
-    <ClInclude Include="University.h" />
-    <ClInclude Include="UniversityRepository.h" />
-    <ClInclude Include="Words.h" />
+    <ClInclude Include="Code\PastaMaker\Place.h" />
+    <ClInclude Include="Code\PastaMaker\SauceType.h" />
+    <ClInclude Include="Code\SOLID\Student.h" />
+    <ClInclude Include="Code\SOLID\StudentRepository.h" />
+    <ClInclude Include="Code\SOLID\StudentService.h" />
+    <ClInclude Include="TODO.h" />
+    <ClInclude Include="Code\SOLID\University.h" />
+    <ClInclude Include="Code\SOLID\UniversityRepository.h" />
+    <ClInclude Include="Code\Words\Words.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator.cpp" />
-    <ClCompile Include="Factorials.cpp" />
-    <ClCompile Include="FactorialTests.cpp" />
-    <ClCompile Include="GildedRose.cpp" />
-    <ClCompile Include="Ingredient.cpp" />
-    <ClCompile Include="PastaMaker.cpp" />
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="StudentRepository.cpp" />
-    <ClCompile Include="StudentService.cpp" />
+    <ClCompile Include="Code\Calculator\Calculator.cpp" />
+    <ClCompile Include="Code\Factorials\Factorials.cpp" />
+    <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
+    <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
+    <ClCompile Include="Code\PastaMaker\Ingredient.cpp" />
+    <ClCompile Include="Tests\StarWars\LightSaberTests.cpp" />
+    <ClCompile Include="Code\PastaMaker\PastaMaker.cpp" />
+    <ClCompile Include="Code\SOLID\Student.cpp" />
+    <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
+    <ClCompile Include="Code\SOLID\StudentService.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -70,9 +73,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="University.cpp" />
-    <ClCompile Include="UniversityRepository.cpp" />
-    <ClCompile Include="Words.cpp" />
+    <ClCompile Include="Code\SOLID\University.cpp" />
+    <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
+    <ClCompile Include="Code\Words\Words.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

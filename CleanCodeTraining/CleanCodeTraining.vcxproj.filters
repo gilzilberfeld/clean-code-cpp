@@ -3,97 +3,104 @@
   <ItemGroup>
     <ClCompile Include="test.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Calculator.cpp">
+    <ClCompile Include="Code\Calculator\Calculator.cpp">
       <Filter>Code\Calculator</Filter>
     </ClCompile>
-    <ClCompile Include="GildedRose.cpp">
-      <Filter>Code\GildedRose</Filter>
-    </ClCompile>
-    <ClCompile Include="Ingredient.cpp">
-      <Filter>Code\PastaMaker</Filter>
-    </ClCompile>
-    <ClCompile Include="PastaMaker.cpp">
-      <Filter>Code\PastaMaker</Filter>
-    </ClCompile>
-    <ClCompile Include="Student.cpp">
-      <Filter>Code\SOLID</Filter>
-    </ClCompile>
-    <ClCompile Include="StudentRepository.cpp">
-      <Filter>Code\SOLID</Filter>
-    </ClCompile>
-    <ClCompile Include="Factorials.cpp">
+    <ClCompile Include="Code\Factorials\Factorials.cpp">
       <Filter>Code\Factorials</Filter>
     </ClCompile>
-    <ClCompile Include="University.cpp">
-      <Filter>Code\SOLID</Filter>
-    </ClCompile>
-    <ClCompile Include="UniversityRepository.cpp">
-      <Filter>Code\SOLID</Filter>
-    </ClCompile>
-    <ClCompile Include="StudentService.cpp">
-      <Filter>Code\SOLID</Filter>
-    </ClCompile>
-    <ClCompile Include="Words.cpp">
-      <Filter>Code\Words</Filter>
-    </ClCompile>
-    <ClCompile Include="FactorialTests.cpp">
+    <ClCompile Include="Tests\Factorials\FactorialTests.cpp">
       <Filter>Tests\Factorials</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GildedRose\GildedRose.cpp">
+      <Filter>Code\GildedRose</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\PastaMaker\Ingredient.cpp">
+      <Filter>Code\PastaMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\StarWars\LightSaberTests.cpp">
+      <Filter>Tests\StarWars</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\PastaMaker\PastaMaker.cpp">
+      <Filter>Code\PastaMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SOLID\Student.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SOLID\StudentRepository.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SOLID\StudentService.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SOLID\University.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SOLID\UniversityRepository.cpp">
+      <Filter>Code\SOLID</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Words\Words.cpp">
+      <Filter>Code\Words</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="GildedRose.h">
-      <Filter>Code\GildedRose</Filter>
-    </ClInclude>
-    <ClInclude Include="Item.h">
-      <Filter>Code\GildedRose</Filter>
-    </ClInclude>
-    <ClInclude Include="Factorials.h">
-      <Filter>Code\Factorials</Filter>
-    </ClInclude>
-    <ClInclude Include="Ingredient.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="IngredientType.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="PastaMaker.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="PastaType.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="Place.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="SauceType.h">
-      <Filter>Code\PastaMaker</Filter>
-    </ClInclude>
-    <ClInclude Include="NotImplementedException.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="Student.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="StudentRepository.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="PackageType.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="University.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="UniversityRepository.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="StudentService.h">
-      <Filter>Code\SOLID</Filter>
-    </ClInclude>
-    <ClInclude Include="Calculator.h">
+    <ClInclude Include="TODO.h" />
+    <ClInclude Include="Code\Calculator\Calculator.h">
       <Filter>Code\Calculator</Filter>
     </ClInclude>
-    <ClInclude Include="Words.h">
+    <ClInclude Include="Code\Factorials\Factorials.h">
+      <Filter>Code\Factorials</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GildedRose\GildedRose.h">
+      <Filter>Code\GildedRose</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\Ingredient.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\IngredientType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\StarWars\LightSaberTests.h">
+      <Filter>Tests\StarWars</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GildedRose\Item.h">
+      <Filter>Code\GildedRose</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\NotImplementedException.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\PackageType.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\PastaMaker.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\PastaType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\Place.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\PastaMaker\SauceType.h">
+      <Filter>Code\PastaMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\Student.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\StudentRepository.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\StudentService.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\University.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SOLID\UniversityRepository.h">
+      <Filter>Code\SOLID</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Words\Words.h">
       <Filter>Code\Words</Filter>
     </ClInclude>
   </ItemGroup>
@@ -125,7 +132,7 @@
     <Filter Include="Tests\Factorials">
       <UniqueIdentifier>{aa924a41-1ec0-424f-810c-430ad3e1a91e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Tests\NewFilter1">
+    <Filter Include="Tests\StarWars">
       <UniqueIdentifier>{a945518e-9a6b-419d-9391-9c529dd55432}</UniqueIdentifier>
     </Filter>
   </ItemGroup>

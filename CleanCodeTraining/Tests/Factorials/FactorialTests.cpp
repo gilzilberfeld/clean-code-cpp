@@ -1,7 +1,7 @@
 #include "pch.h"
-#include "Factorials.h"
+#include "..\\..\\Code\\Factorials\\Factorials.h"
 
-TEST(FactorialTests, factorials)
+TEST(FactorialTests, calculations)
 {
 	Factorials factorial;
 	ASSERT_EQ(1, factorial.Calculate(1));
