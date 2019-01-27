@@ -1,5 +1,4 @@
-#include "pch.h"
-#include "LightSaberTests.h"
+#include "..\..\pch.h"
 
 TEST(LightSaberTests,FirstTest)
 {

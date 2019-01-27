@@ -7,7 +7,7 @@ public:
 	int GetUniversityID();
 	int GetMonthlyEbookAllowance();
 	int GetCurrentlyBorrowedEbooks();
-	void SetMonthlyEbookAllowance(int allowence);
+	void SetMonthlyBookAllowance(int allowence);
 	void SetCurrentlyBorrowedEbooks(int books);
 
 private:

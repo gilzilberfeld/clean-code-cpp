@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "..\..\pch.h"
 #include "NotImplementedException.h"
 #include "Student.h"
 
@@ -25,7 +25,7 @@ int Student::GetMonthlyEbookAllowance() {
 int Student::GetCurrentlyBorrowedEbooks() {
 	throw new NotImplementedException();
 }
-void Student::SetMonthlyEbookAllowance(int allowence) {
+void Student::SetMonthlyBookAllowance(int allowence) {
 	throw new NotImplementedException();
 }
 

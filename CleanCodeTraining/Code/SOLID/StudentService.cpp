@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "..\..\pch.h"
 #include "NotImplementedException.h"
 #include "Student.h"
 #include "University.h"
@@ -9,7 +9,7 @@
 bool StudentService::AddIfValid(string emailAddress, int universityId)
 {
 	//SRP
-	printf("Log: Start add student with email %s", emailAddress);
+	cout << "Log: Start add student with email  " << emailAddress;
 
 	if (emailAddress == "") {
 		return false;
@@ -35,17 +35,17 @@ bool StudentService::AddIfValid(string emailAddress, int universityId)
 		university->GetPackageType();
 	if (type == Standard)
 	{
-		student->SetMonthlyEbookAllowance(10);
+		student->SetMonthlyBookAllowance(10);
 	}
 	else if (type == Premium)
 	{
-		student->SetMonthlyEbookAllowance(10 * 2);
+		student->SetMonthlyBookAllowance(10 * 2);
 	}
 
 	studentRepository->Add(student);
 
 	//SRP
-	printf("Log: End add student with email %s", emailAddress);
+	cout << "Log: End add student with email " << emailAddress;
 
 	return true;//CQS
 }

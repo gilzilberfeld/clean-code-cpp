@@ -1,5 +1,5 @@
-#include "pch.h"
-#include "..\\..\\Code\\Factorials\\Factorials.h"
+#include "..\..\pch.h"
+#include "..\..\Code\Factorials\Factorials.h"
 
 TEST(FactorialTests, calculations)
 {

@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "..\..\pch.h"
 #include "NotImplementedException.h"
 #include "Student.h"
 #include "StudentRepository.h"
