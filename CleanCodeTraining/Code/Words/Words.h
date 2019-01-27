@@ -2,6 +2,6 @@
 class Words
 {
 public:
-	int Find();
+	int static Find();
 };
 
