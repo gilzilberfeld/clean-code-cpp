@@ -375,3 +375,8 @@ ASALocalRun/
 .localhistory/
 
 # End of https://www.gitignore.io/api/c++,visualstudio
+
+
+# ApprovalTests
+*.approved.txt
+*.received.txt
