@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "..\..\pch.h"
 #include "Words.h"
 
 
@@ -10,7 +10,7 @@ int Words::Find()
 	vector<string> words;
 	string word;
 
-	while (getline(cin, word))
+	while (!getline(cin, word).eof())
 	{
 		words.push_back(word);
 	}
@@ -61,8 +61,7 @@ int Words::Find()
 
 	for (int i = 0; i < unique_words.size(); ++i)
 	{
-		printf( "%s :  %d \n", unique_words.at(i), frequency.at(i));
+		printf("%s :  %d \n", unique_words.at(i).c_str(), frequency.at(i));
 	}
 	return 0;
-
 }
