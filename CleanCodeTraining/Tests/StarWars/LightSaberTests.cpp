@@ -1,6 +1,6 @@
-#include "..\..\pch.h"
+#include "catch2/catch.hpp"
 
-TEST(LightSaberTests,FirstTest)
+TEST_CASE("LightSaberTests", "First test")
 {
 }
 

@@ -1,11 +1,14 @@
-#include "..\..\pch.h"
-#include "..\..\Code\GildedRose\Item.h"
-#include "..\..\Code\GildedRose\GildedRose.h"
+#define APPROVALS_CATCH
+#include "../ApprovalTests.v.2.1.0.hpp"
 
-#define APPROVALS_GOOGLETEST
-#include "..\ApprovalTests.v.2.1.0.hpp"
+#include <vector>
+using namespace std;
 
-std::ostream& operator<<(std::ostream& os, const Item& obj)
+#include "../../Code/GildedRose/Item.h"
+#include "../../Code/GildedRose/GildedRose.h"
+#include <ostream>
+
+ostream& operator<<(ostream& os, const Item& obj)
 {
 	return os
 		<< "name: " << obj.name
@@ -13,7 +16,7 @@ std::ostream& operator<<(std::ostream& os, const Item& obj)
 		<< ", quality: " << obj.quality;
 }
 
-TEST(GildedRoseApprovalTests, DISABLED_StoreUpdatesForThirtyDays)
+TEST_CASE("GildedRose ApprovalTests", "[.]"/*"Store Updates For Thirty Days"*/)
 {
 	vector<Item> items;
 	items.push_back(Item("+5 Dexterity Vest", 10, 20));

@@ -1,6 +1,6 @@
-#include "..\..\pch.h"
+#include <string>
+using namespace std;
 #include "Calculator.h"
-
 
 void Calculator::Press(string key)
 {

@@ -1,4 +1,7 @@
-#include "..\..\pch.h"
+#include <exception>
+#include <string>
+using namespace std;
+
 #include "NotImplementedException.h"
 #include "Student.h"
 #include "StudentRepository.h"

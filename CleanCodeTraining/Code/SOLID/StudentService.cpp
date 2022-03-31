@@ -1,10 +1,14 @@
-#include "..\..\pch.h"
+#include <exception>
+#include <string>
+using namespace std;
+
 #include "NotImplementedException.h"
 #include "Student.h"
 #include "University.h"
 #include "StudentRepository.h"
 #include "UniversityRepository.h"
 #include "StudentService.h"
+#include <iostream>
 
 bool StudentService::AddIfValid(string emailAddress, int universityId)
 {

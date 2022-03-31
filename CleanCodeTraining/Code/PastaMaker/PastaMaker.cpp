@@ -1,4 +1,6 @@
-#include "..\..\pch.h"
+#include <vector>
+using namespace std;
+
 #include "IngredientType.h"
 #include "Ingredient.h"
 #include "Place.h"

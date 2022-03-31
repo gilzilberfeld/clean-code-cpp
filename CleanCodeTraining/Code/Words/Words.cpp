@@ -1,6 +1,10 @@
-#include "..\..\pch.h"
-#include "Words.h"
+#include <stdio.h>
+using namespace std;
 
+#include <vector>
+#include <string>
+#include "Words.h"
+#include <iostream>
 
 int Words::Find()
 {

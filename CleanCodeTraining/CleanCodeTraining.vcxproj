@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\CatchOrg.Catch.2.8.0\build\native\CatchOrg.Catch.props" Condition="Exists('..\packages\CatchOrg.Catch.2.8.0\build\native\CatchOrg.Catch.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -21,7 +22,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7d819578-4125-41a7-bc65-d9c858a84077}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -33,7 +34,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClInclude Include="ApprovalTests.v.2.1.0.hpp" />
+    <ClInclude Include="ApprovalTests.v.10.12.2.hpp" />
     <ClInclude Include="Code\Calculator\Calculator.h" />
     <ClInclude Include="Code\Factorials\Factorials.h" />
     <ClInclude Include="Code\GildedRose\GildedRose.h" />
@@ -44,7 +45,6 @@
     <ClInclude Include="Code\SOLID\PackageType.h" />
     <ClInclude Include="Code\PastaMaker\PastaMaker.h" />
     <ClInclude Include="Code\PastaMaker\PastaType.h" />
-    <ClInclude Include="pch.h" />
     <ClInclude Include="Code\PastaMaker\Place.h" />
     <ClInclude Include="Code\PastaMaker\SauceType.h" />
     <ClInclude Include="Code\SOLID\Student.h" />
@@ -57,6 +57,7 @@
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
     <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
@@ -66,24 +67,19 @@
     <ClCompile Include="Code\SOLID\Student.cpp" />
     <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
     <ClCompile Include="Code\SOLID\StudentService.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="Code\SOLID\University.cpp" />
     <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
     <ClCompile Include="Code\Words\Words.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Tests\GildedRose\GildedRoseReqs.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets" Condition="Exists('..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets')" />
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -152,6 +148,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets'))" />
+    <Error Condition="!Exists('..\packages\CatchOrg.Catch.2.8.0\build\native\CatchOrg.Catch.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CatchOrg.Catch.2.8.0\build\native\CatchOrg.Catch.props'))" />
   </Target>
 </Project>

@@ -1,13 +1,13 @@
-#include "..\..\pch.h"
+#include "catch2/catch.hpp"
 #include "..\..\Code\Factorials\Factorials.h"
 
-TEST(FactorialTests, calculations)
+TEST_CASE("Factorial Tests", "calculations")
 {
 	Factorials factorial;
-	ASSERT_EQ(1, factorial.Calculate(1));
-	ASSERT_EQ(2, factorial.Calculate(2));
-	ASSERT_EQ(6, factorial.Calculate(3));
-	ASSERT_EQ(3628800, factorial.Calculate(10));
+	REQUIRE( factorial.Calculate(1) == 1);
+	REQUIRE( factorial.Calculate(2) == 2);
+	REQUIRE( factorial.Calculate(3) == 3);
+	REQUIRE( factorial.Calculate(10) == 3628800);
 
 }
 
