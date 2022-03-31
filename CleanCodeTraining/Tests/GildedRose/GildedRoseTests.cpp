@@ -18,7 +18,7 @@ ostream& operator<<(ostream& os, const Item& obj)
 		<< ", quality: " << obj.quality;
 }
 
-TEST_CASE("GildedRose ApprovalTests", "Store Updates For Thirty Days")
+TEST_CASE("GildedRose ApprovalTests", "[.]")
 {
 	vector<Item> items;
 	items.push_back(Item("+5 Dexterity Vest", 10, 20));

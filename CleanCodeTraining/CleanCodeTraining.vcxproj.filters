@@ -16,7 +16,7 @@
     <ClCompile Include="Code\PastaMaker\Ingredient.cpp">
       <Filter>Code\PastaMaker</Filter>
     </ClCompile>
-    <ClCompile Include="Tests\StarWars\LightSaberTests.cpp">
+    <ClCompile Include="Tests\TDD\TDDNavigatorTests.cpp">
       <Filter>Tests\StarWars</Filter>
     </ClCompile>
     <ClCompile Include="Code\PastaMaker\PastaMaker.cpp">
@@ -44,6 +44,10 @@
       <Filter>Tests\GildedRose</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Code\CodingByIntention\Navigator.cpp">
+      <Filter>Code\CodingByIntention</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h">
@@ -103,6 +107,9 @@
     <ClInclude Include="ApprovalTests.v.10.12.2.hpp">
       <Filter>Tests</Filter>
     </ClInclude>
+    <ClInclude Include="Code\CodingByIntention\Navigator.h">
+      <Filter>Code\CodingByIntention</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Code">
@@ -137,6 +144,9 @@
     </Filter>
     <Filter Include="Tests\GildedRose">
       <UniqueIdentifier>{556fb196-baf3-4293-8fe2-18e77413ddde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\CodingByIntention">
+      <UniqueIdentifier>{b3a77529-1dec-4d6e-a6ac-72d8b0173423}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

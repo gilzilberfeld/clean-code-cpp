@@ -53,16 +53,19 @@
     <ClInclude Include="Code\SOLID\University.h" />
     <ClInclude Include="Code\SOLID\UniversityRepository.h" />
     <ClInclude Include="Code\Words\Words.h" />
+    <ClInclude Include="Code\CodingByIntention\Navigator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Code\CodingByIntention\Navigator.cpp" />
+    <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
     <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
     <ClCompile Include="Code\PastaMaker\Ingredient.cpp" />
-    <ClCompile Include="Tests\StarWars\LightSaberTests.cpp" />
+    <ClCompile Include="Tests\TDD\TDDNavigatorTests.cpp" />
     <ClCompile Include="Code\PastaMaker\PastaMaker.cpp" />
     <ClCompile Include="Code\SOLID\Student.cpp" />
     <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
