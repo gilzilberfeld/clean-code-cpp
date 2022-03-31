@@ -1,8 +1,10 @@
-#define APPROVALS_CATCH
-#include "../ApprovalTests.v.2.1.0.hpp"
+#include "catch2/catch.hpp"
+#include "../../ApprovalTests.v.10.12.2.hpp"
+using namespace ApprovalTests;
 
 #include <vector>
 using namespace std;
+
 
 #include "../../Code/GildedRose/Item.h"
 #include "../../Code/GildedRose/GildedRose.h"
@@ -16,7 +18,7 @@ ostream& operator<<(ostream& os, const Item& obj)
 		<< ", quality: " << obj.quality;
 }
 
-TEST_CASE("GildedRose ApprovalTests", "[.]"/*"Store Updates For Thirty Days"*/)
+TEST_CASE("GildedRose ApprovalTests", "Store Updates For Thirty Days")
 {
 	vector<Item> items;
 	items.push_back(Item("+5 Dexterity Vest", 10, 20));
