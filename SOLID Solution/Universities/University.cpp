@@ -1,8 +1,9 @@
-#include "..\pch.h"
+#include "..//pch.h"
 #include "..\Exceptions\NotImplemented.h"
 #include "..\PackageType.h"
 #include "University.h"
-
+#include <string>
+using namespace std;
 
 int University::GetID()
 {
