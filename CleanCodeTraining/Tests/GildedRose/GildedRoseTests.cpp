@@ -2,6 +2,7 @@
 #include "../../ApprovalTests.v.10.12.2.hpp"
 using namespace ApprovalTests;
 
+#include <string>
 #include <vector>
 using namespace std;
 
