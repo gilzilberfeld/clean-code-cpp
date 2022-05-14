@@ -1,7 +1,7 @@
 #include "catch2/catch.hpp"
 #include "..\..\Code\Factorials\Factorials.h"
 
-TEST_CASE("Factorial Tests", "calculations")
+TEST_CASE("Factorial Tests", "calculation")
 {
 	Factorials factorial;
 	REQUIRE( factorial.Calculate(1) == 1);

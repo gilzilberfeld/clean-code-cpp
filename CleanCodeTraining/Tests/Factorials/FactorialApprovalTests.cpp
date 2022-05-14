@@ -4,7 +4,7 @@ using namespace ApprovalTests;
 
 #include "..\..\Code\Factorials\Factorials.h"
 
-TEST_CASE("Approval Factorial Tests", "calculations")
+TEST_CASE("Approval Factorial Tests", "[.]")
 {
 	std::stringstream log;
 	Factorials factorial;
