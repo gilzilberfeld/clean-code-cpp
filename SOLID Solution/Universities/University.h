@@ -12,3 +12,4 @@ private:
 	void SetPackageType(PackageType packageType);
 
 };
+
