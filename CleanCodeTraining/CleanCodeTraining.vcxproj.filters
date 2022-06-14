@@ -49,6 +49,7 @@
     </ClCompile>
     <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
     <ClCompile Include="Code\SOLID.C\solid.c" />
+    <ClCompile Include="Code\GildedRose.C\GildedRoseC.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h">

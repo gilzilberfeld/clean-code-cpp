@@ -58,6 +58,7 @@
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
+    <ClCompile Include="Code\GildedRose.C\GildedRoseC.c" />
     <ClCompile Include="Code\SOLID.C\solid.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Code\CodingByIntention\Navigator.cpp" />
