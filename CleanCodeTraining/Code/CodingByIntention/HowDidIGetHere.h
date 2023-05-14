@@ -1,5 +1,5 @@
 #pragma once
-class Navigator
+class HowDidIGetHere
 {
 public:
 	void Go();

@@ -16,7 +16,7 @@
     <ClCompile Include="Code\PastaMaker\Ingredient.cpp">
       <Filter>Code\PastaMaker</Filter>
     </ClCompile>
-    <ClCompile Include="Tests\TDD\TDDNavigatorTests.cpp">
+    <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp">
       <Filter>Tests\StarWars</Filter>
     </ClCompile>
     <ClCompile Include="Code\PastaMaker\PastaMaker.cpp">
@@ -44,12 +44,13 @@
       <Filter>Tests\GildedRose</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Code\CodingByIntention\Navigator.cpp">
+    <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp">
       <Filter>Code\CodingByIntention</Filter>
     </ClCompile>
     <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
-    <ClCompile Include="Code\SOLID.C\solid.c" />
-    <ClCompile Include="Code\GildedRose.C\GildedRoseC.c" />
+    <ClCompile Include="Code\C\SOLID.C\solid.c" />
+    <ClCompile Include="Code\C\GildedRose.C\GildedRoseC.c" />
+    <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\Calculator\Calculator.h">
@@ -109,9 +110,7 @@
     <ClInclude Include="ApprovalTests.v.10.12.2.hpp">
       <Filter>Tests</Filter>
     </ClInclude>
-    <ClInclude Include="Code\CodingByIntention\Navigator.h">
-      <Filter>Code\CodingByIntention</Filter>
-    </ClInclude>
+    <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Code">

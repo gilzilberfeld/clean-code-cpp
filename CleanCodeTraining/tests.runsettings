@@ -7,7 +7,7 @@
 		<!-- Milliseconds; Introduced in v1.6.0 -->
 		<DebugBreak>on</DebugBreak>
 		<DiscoverCommandLine>--verbosity high --list-tests --reporter xml *</DiscoverCommandLine>
-		<DiscoverTimeout>500</DiscoverTimeout>
+		<DiscoverTimeout>5000</DiscoverTimeout>
 		<!-- Milliseconds -->
 		<Environment>
 			<!-- Introduced in v1.7.0 -->
@@ -19,7 +19,7 @@
 		<ExecutionModeForceSingleTagRgx>Slow</ExecutionModeForceSingleTagRgx>
 		<!-- Introduced in v1.6.0 -->
 		<!-- Adapter Specific sections -->
-		<FilenameFilter>.*</FilenameFilter>
+		<FilenameFilter>Tests</FilenameFilter>
 		<!-- Regex filter -->
 		<IncludeHidden>true</IncludeHidden>
 		<Logging>normal</Logging>

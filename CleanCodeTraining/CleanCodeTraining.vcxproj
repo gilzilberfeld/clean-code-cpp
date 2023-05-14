@@ -22,9 +22,9 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7d819578-4125-41a7-bc65-d9c858a84077}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -53,21 +53,21 @@
     <ClInclude Include="Code\SOLID\University.h" />
     <ClInclude Include="Code\SOLID\UniversityRepository.h" />
     <ClInclude Include="Code\Words\Words.h" />
-    <ClInclude Include="Code\CodingByIntention\Navigator.h" />
+    <ClInclude Include="Code\TicTacToe\TicTacToe.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Code\Calculator\Calculator.cpp" />
     <ClCompile Include="Code\Factorials\Factorials.cpp" />
-    <ClCompile Include="Code\GildedRose.C\GildedRoseC.c" />
-    <ClCompile Include="Code\SOLID.C\solid.c" />
+    <ClCompile Include="Code\C\GildedRose.C\GildedRoseC.c" />
+    <ClCompile Include="Code\C\SOLID.C\solid.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Code\CodingByIntention\Navigator.cpp" />
+    <ClCompile Include="Code\CodingByIntention\HowDidIGetHere.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialApprovalTests.cpp" />
     <ClCompile Include="Tests\GildedRose\GildedRoseTests.cpp" />
     <ClCompile Include="Tests\Factorials\FactorialTests.cpp" />
     <ClCompile Include="Code\GildedRose\GildedRose.cpp" />
     <ClCompile Include="Code\PastaMaker\Ingredient.cpp" />
-    <ClCompile Include="Tests\TDD\TDDNavigatorTests.cpp" />
+    <ClCompile Include="Tests\TDD\TDDTicTacToe.cpp" />
     <ClCompile Include="Code\PastaMaker\PastaMaker.cpp" />
     <ClCompile Include="Code\SOLID\Student.cpp" />
     <ClCompile Include="Code\SOLID\StudentRepository.cpp" />
@@ -75,6 +75,7 @@
     <ClCompile Include="Code\SOLID\University.cpp" />
     <ClCompile Include="Code\SOLID\UniversityRepository.cpp" />
     <ClCompile Include="Code\Words\Words.cpp" />
+    <ClCompile Include="Code\TicTacToe\TicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Tests\GildedRose\GildedRoseReqs.txt" />
@@ -112,6 +113,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

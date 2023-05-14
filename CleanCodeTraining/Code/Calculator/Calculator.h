@@ -5,7 +5,5 @@ public:
 	void Press(string key);
 	string GetDisplay();
 
-private:
-	string storedValue = "";
 };
 
